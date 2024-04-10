@@ -17,7 +17,21 @@ main {
     background-size: cover; /* Ajusta el tamaño de la imagen para que quepa completamente dentro del contenedor */
     background-position: top;
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
-    display: flex; /* Usa flexbox para centrar el contenido si es necesario */
-    justify-content: center; /* Centra horizontalmente el contenido */
+
+}
+
+.titulo-h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sub-h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
