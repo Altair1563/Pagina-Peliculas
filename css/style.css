@@ -9,6 +9,11 @@ header {
 .nav-div{
 }
 
+.navbar-nav {
+    display:flex;
+    justify-content: end;
+}
+
 .seccion1 {
     background-image: url("https://www.shutterstock.com/image-photo/friends-choosing-movie-watch-together-600nw-2179958927.jpg");
     width: 100%; 
@@ -42,6 +47,7 @@ header {
 }
 
 .seccion2{
+    height: 200px;
     background-color: aqua;
     color: white;
     display: flex;
@@ -76,6 +82,7 @@ header {
 
 .imgTendencia{
     width: 80%;
+    border-radius: 20px;
 }
 
 .btn-sig-ant{
@@ -83,6 +90,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 25px;
+
 
 }
 
@@ -92,4 +101,6 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 25px;
+
   }
