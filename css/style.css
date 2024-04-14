@@ -9,7 +9,7 @@ header {
 }
 
 .navbar{
-    background-color: #b41f1f;
+    background-color: #9d0000;
 }
 
 .navbar-nav {
@@ -28,9 +28,10 @@ header {
 }
 
 .link-log {
-    padding: 10px;
-    background-color: grey;
+    padding: 6px;
+    background-color:  #dc3545;
     border-radius: 25px;
+    border:solid 2px white;
 }
 
 .seccion1 {
@@ -67,12 +68,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     border-radius: 25px;
+    border:solid 2px white;
     background-color: grey;
     width: 25%;
     left: 37%;
     position: relative;
+    font-size: 1.2rem;
+    text-decoration: none;
 
 
 }
@@ -104,18 +108,19 @@ h3 {
 }
 
 .btn-buscador{
-    background-color: #b41f1f;
+    background-color: #9d0000;
     border-radius: 25px;
     position: relative;
     bottom: 5px;
 }
 
 .titulo-seccion3{
-    background-color: #b41f1f;
+    background-color: #9d0000;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 
 }
 
@@ -137,27 +142,47 @@ h3 {
     border-radius: 20px;
 }
 
-.btn-sig-ant{
-    background-color: black;
-    color: white;
+.tituloPelicula {
+    width: 70%;
+}
+
+h4 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.secc-sig-ant{
+    background-color: black;
+    display: flex;
+    justify-content: center;
     padding: 25px;
+}
 
-
+.bnt-sig-ant {
+    background-color: #9d0000;
+    color: white;
+    margin: 10px;
+    font-size: 1.5rem;
+    border-radius: 15px;
 }
 
 footer { 
-    background-color: #b41f1f;
+    background-color: #9d0000;
     width: 100%; 
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 15px;
+    padding-top: 15px;
     font-size: large;
   }
 
   .linkNav {
     color: white;
+    text-decoration: none;
   }
