@@ -80,6 +80,28 @@ input{
     width: 80%;
 }
 
+.main-registro {
+    display: flex;
+    flex-direction: row;
+}
+
+.registro {
+    margin: 15px;
+    background-image: linear-gradient(to bottom, #372f2f, #921010, #372f2f);
+    border-radius:25px;
+    color: white;
+    width: 70%;
+    height: 80%;
+}
+
+.form-registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin: 10px;
+}
+
 .seccion1 {
     background-image: url("https://www.shutterstock.com/image-photo/friends-choosing-movie-watch-together-600nw-2179958927.jpg");
     width: 100%; 
