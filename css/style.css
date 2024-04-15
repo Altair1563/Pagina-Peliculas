@@ -31,7 +31,53 @@ header {
     padding: 6px;
     background-color:  #dc3545;
     border-radius: 25px;
-    border:solid 2px white;
+    border:solid 3px white;
+}
+
+.link-log:hover {
+    border:solid 3px black;
+}
+
+.body-sesion {
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/1154.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.inicio-sesion {
+    margin: 15px;
+    background-image: linear-gradient(to bottom, #372f2f, #921010, #372f2f);
+    border-radius:25px;
+    color: white;
+    width: 30%;
+    height: 60%;
+}
+
+.main-sesion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    height: 100%;
+    align-content: center;
+    row-gap: 10px;
+
+}
+
+.form-sesion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+input{
+    width: 80%;
 }
 
 .seccion1 {
@@ -70,15 +116,18 @@ header {
     align-items: center;
     padding: 10px;
     border-radius: 25px;
-    border:solid 2px white;
+    border:solid 3px white;
     background-color: grey;
     width: 25%;
     left: 37%;
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-decoration: none;
+}
 
-
+.btn-registrarse:hover {
+    color: black;
+    border:solid 3px black;
 }
 
 .seccion2{
@@ -170,6 +219,12 @@ a {
     margin: 10px;
     font-size: 1.5rem;
     border-radius: 15px;
+    border:solid 3px #9d0000;
+}
+
+.bnt-sig-ant:hover {
+    border:solid 3px rgb(248, 62, 62);
+
 }
 
 footer { 
