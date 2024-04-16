@@ -5,9 +5,6 @@ html, body, main {
     width: 100%;
 }
 
-header {
-}
-
 .navbar{
     background-image: linear-gradient(to bottom, #000000, #9d0000);
 }
@@ -86,11 +83,13 @@ input{
 }
 
 .registro {
-    margin: 15px;
-    background-image: linear-gradient(to bottom, #372f2f, #9d0000, #372f2f);
-    border-radius:25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 15%;
+    background-image: linear-gradient(to left, #000000, #9d0000, #000000);
+    border-radius:25px 0px 0px 25px;
     color: white;
-    width: 70%;
+    width: 50%;
     height: 80%;
 }
 
@@ -98,15 +97,15 @@ input{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .regis-h2 {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .regis-labl {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .regis-btn {
@@ -116,6 +115,16 @@ input{
     border:solid 3px white;
     width: 25%;
     margin: 20px;
+}
+
+.img-registro {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius:25px;
+    color: white;
+    height: 80%;
 }
 
 .seccion1 {
