@@ -97,9 +97,25 @@ input{
 .form-registro {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 12px;
+    gap: 5px;
     margin: 10px;
+}
+
+.regis-h2 {
+    font-size: 4rem;
+}
+
+.regis-labl {
+    font-size: 1.5rem;
+}
+
+.regis-btn {
+    padding: 6px;
+    background-color:  #dc3545;
+    border-radius: 25px;
+    border:solid 3px white;
+    width: 25%;
+    margin: 20px;
 }
 
 .seccion1 {
