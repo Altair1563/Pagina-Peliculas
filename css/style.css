@@ -45,7 +45,7 @@ html, body, main {
 
 .inicio-sesion {
     margin: 15px;
-    background-image: linear-gradient(to bottom, #372f2f, #9d0000, #372f2f);
+    background-image: linear-gradient(to bottom, #000000, #9d0000, #000000);
     border-radius:25px;
     color: white;
     width: 30%;
@@ -192,8 +192,7 @@ input{
 }
 
 h3 {
-    font-size: 2.5em;
-    margin: 0px;
+    font-size: 2em;
 }
 
 .inputBuscador {
