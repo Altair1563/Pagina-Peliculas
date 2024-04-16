@@ -15,9 +15,9 @@ main {
 }
 
 .nav-item {
-    color: grey;
     font-size: large;
     font-weight: bold;
+    margin-left: 15px;
 }
 
 .nav-link {
@@ -26,13 +26,14 @@ main {
 
 .link-log {
     padding: 6px;
-    background-color: #9d0000;
+    background-color: #000000;
     border-radius: 25px;
     border: solid 3px white;
 }
 
 .link-log:hover {
-    border: solid 3px black;
+    border: solid 3px red;
+    --bs-nav-link-hover-color: red;
 }
 
 .body-sesion {
@@ -164,7 +165,7 @@ input {
     padding: 10px;
     border-radius: 25px;
     border: solid 3px white;
-    background-color: grey;
+    background-color: rgb(0, 0, 0);
     width: 25%;
     left: 37%;
     position: relative;
@@ -173,8 +174,8 @@ input {
 }
 
 .btn-registrarse:hover {
-    color: black;
-    border: solid 3px black;
+    color: red;
+    border: solid 3px red;
 }
 
 .seccion2 {

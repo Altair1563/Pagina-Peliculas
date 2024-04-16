@@ -8,6 +8,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Iniciar sesión</title>
 </head>
@@ -43,7 +44,7 @@
     </nav>
   </header>
 
-  <main class="main-sesion">
+  <main data-aos="fade-up" data-aos-duration="3000" class="main-sesion">
 
     <section class="inicio-sesion">
       <div class="form">
@@ -66,7 +67,10 @@
 
   </main>
 
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
