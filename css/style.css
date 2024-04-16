@@ -1,16 +1,16 @@
-
-
-html, body, main {
+html,
+body,
+main {
     height: 100%;
     width: 100%;
 }
 
-.navbar{
+.navbar {
     background-image: linear-gradient(to bottom, #000000, #9d0000);
 }
 
 .navbar-nav {
-    display:flex;
+    display: flex;
     justify-content: end;
 }
 
@@ -26,13 +26,13 @@ html, body, main {
 
 .link-log {
     padding: 6px;
-    background-color:  #9d0000;
+    background-color: #9d0000;
     border-radius: 25px;
-    border:solid 3px white;
+    border: solid 3px white;
 }
 
 .link-log:hover {
-    border:solid 3px black;
+    border: solid 3px black;
 }
 
 .body-sesion {
@@ -46,7 +46,7 @@ html, body, main {
 .inicio-sesion {
     margin: 15px;
     background-image: linear-gradient(to bottom, #000000, #9d0000, #000000);
-    border-radius:25px;
+    border-radius: 25px;
     color: white;
     width: 30%;
     height: 60%;
@@ -73,7 +73,7 @@ html, body, main {
     gap: 12px;
 }
 
-input{
+input {
     width: 80%;
 }
 
@@ -87,7 +87,7 @@ input{
     margin-bottom: 15px;
     margin-left: 15%;
     background-image: linear-gradient(to left, #000000, #9d0000, #000000);
-    border-radius:25px 0px 0px 25px;
+    border-radius: 25px 0px 0px 25px;
     color: white;
     width: 50%;
     height: 80%;
@@ -110,9 +110,9 @@ input{
 
 .regis-btn {
     padding: 6px;
-    background-color:  #9d0000;
+    background-color: #9d0000;
     border-radius: 25px;
-    border:solid 3px white;
+    border: solid 3px white;
     width: 25%;
     margin: 20px;
 }
@@ -122,15 +122,15 @@ input{
     flex-direction: row;
     margin-top: 25px;
     margin-bottom: 15px;
-    border-radius:25px;
+    border-radius: 25px;
     color: white;
     height: 80%;
 }
 
 .seccion1 {
     background-image: url("https://www.shutterstock.com/image-photo/friends-choosing-movie-watch-together-600nw-2179958927.jpg");
-    width: 100%; 
-    height: 650px; 
+    width: 100%;
+    height: 650px;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ input{
     align-content: center;
 }
 
-.titulo-h1{
+.titulo-h1 {
     font-size: 4rem;
     color: white;
     display: flex;
@@ -147,7 +147,7 @@ input{
 
 }
 
-.sub-h2{
+.sub-h2 {
     display: flex;
     vertical-align: middle;
     color: white;
@@ -163,7 +163,7 @@ input{
     align-items: center;
     padding: 10px;
     border-radius: 25px;
-    border:solid 3px white;
+    border: solid 3px white;
     background-color: grey;
     width: 25%;
     left: 37%;
@@ -174,11 +174,11 @@ input{
 
 .btn-registrarse:hover {
     color: black;
-    border:solid 3px black;
+    border: solid 3px black;
 }
 
-.seccion2{
-    height: 200px;
+.seccion2 {
+    height: 300px;
     background-color: #000000;
     color: white;
     display: flex;
@@ -195,21 +195,29 @@ h3 {
     font-size: 2em;
 }
 
+.titulo-seccion {
+    font-size: 3em;
+}
+
 .inputBuscador {
     margin: 10px;
-    width: 400px;
+    width: 600px;
     border-radius: 20px;
     font-size: 1.5em;
 }
 
-.btn-buscador{
+.btn-buscador {
     background-color: #9d0000;
     border-radius: 25px;
     position: relative;
     bottom: 5px;
 }
 
-.titulo-seccion3{
+.seccion3 {
+    margin-top: 200px;
+}
+
+.titulo-seccion3 {
     background-image: linear-gradient(to bottom, #9d0000, #000000);
     color: white;
     display: flex;
@@ -224,10 +232,10 @@ h3 {
     background-color: #000000;
 }
 
-.titulo-tend{
+.titulo-tend {
     background-image: linear-gradient(to bottom, #921010, #000000);
     color: white;
-    margin-top: 30px;
+    margin-top: 100px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -237,7 +245,8 @@ h3 {
 
 .pelis {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Cada fila tendrá 4 columnas de igual tamaño */
+    grid-template-columns: repeat(4, 1fr);
+    /* Cada fila tendrá 4 columnas de igual tamaño */
     grid-gap: 10px;
     padding: 25px;
     background-color: black;
@@ -251,12 +260,12 @@ h3 {
     background-image: linear-gradient(to bottom, #000000, #9d0000, #000000);
 }
 
-.peliculas{
+.peliculas {
     width: 100%;
     height: auto;
 }
 
-.imgTendencia{
+.imgTendencia {
     width: 80%;
     border-radius: 20px;
 }
@@ -276,7 +285,7 @@ a {
     text-decoration: none;
 }
 
-.secc-sig-ant{
+.secc-sig-ant {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -286,28 +295,28 @@ a {
 .bnt-sig-ant {
     background-color: #9d0000;
     color: white;
-    margin: 10px;
-    font-size: 1.5rem;
+    margin: 50px;
+    font-size: 2rem;
     border-radius: 15px;
-    border:solid 3px #9d0000;
+    border: solid 3px #9d0000;
 }
 
 .bnt-sig-ant:hover {
-    border:solid 3px rgb(248, 62, 62);
+    border: solid 3px rgb(248, 62, 62);
 
 }
 
-footer { 
-    background-image: linear-gradient(to bottom, #9d0000, #000000);
-    width: 100%; 
+footer {
+    background-image: linear-gradient(to bottom, #000000, #9d0000);
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding-top: 15px;
     font-size: large;
-  }
+}
 
-  .linkNav {
+.copyright {
     color: white;
-    text-decoration: none;
-  }
+    font-size: 1rem;
+}
