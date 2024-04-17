@@ -247,10 +247,9 @@ h3 {
 .pelis {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* Cada fila tendrá 4 columnas de igual tamaño */
     grid-gap: 10px;
-    padding: 25px;
-    background-color: black;
+    padding-left: 5%;
+
 }
 
 .pelis-tend {
