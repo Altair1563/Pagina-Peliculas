@@ -16,24 +16,31 @@ main {
 
 .nav-item {
     font-size: large;
-    font-weight: bold;
-    margin-left: 15px;
+    font-weight: bolder;
+    margin-left: 25px;
 }
 
 .nav-link {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #ff9900;
 }
 
 .link-log {
     padding: 6px;
-    background-color: #000000;
+    background-color: #494646;
     border-radius: 25px;
     border: solid 3px white;
+    font-weight: bold;
+    color: white;
 }
 
 .link-log:hover {
-    border: solid 3px red;
-    --bs-nav-link-hover-color: red;
+    background-color: green;
+    border-color: #1df81d;
+    color: #ffffff;
 }
 
 .body-sesion {
@@ -74,6 +81,18 @@ main {
     gap: 12px;
 }
 
+.form-inicioses {
+    font-size: 1.2rem;
+}
+
+.olv-contra {
+    color: blue;
+}
+
+.olv-contra:hover {
+    text-decoration: underline;
+}
+
 input {
     width: 80%;
 }
@@ -111,11 +130,20 @@ input {
 
 .regis-btn {
     padding: 6px;
-    background-color: #9d0000;
+    background-color: #494646;
     border-radius: 25px;
     border: solid 3px white;
     width: 25%;
     margin: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.regis-btn:hover {
+    background-color: green;
+    border-color: #1df81d;
+    color: #ffffff;
+    
 }
 
 .img-registro {
@@ -165,7 +193,7 @@ input {
     padding: 10px;
     border-radius: 25px;
     border: solid 3px white;
-    background-color: rgb(0, 0, 0);
+    background-color: #494646;
     width: 25%;
     left: 37%;
     position: relative;
@@ -174,8 +202,9 @@ input {
 }
 
 .btn-registrarse:hover {
-    color: red;
-    border: solid 3px red;
+    background-color: green;
+    border-color: #1df81d;
+    color: #ffffff;
 }
 
 .seccion2 {
@@ -346,12 +375,12 @@ a {
 }
 
 .bnt-sig-ant {
-    background-color: #9d0000;
+    background-color: #494646;
     color: white;
     margin: 50px;
     font-size: 2rem;
     border-radius: 15px;
-    border: solid 3px #9d0000;
+    border: solid 3px #494646;
 }
 
 .bnt-sig-ant:hover {
@@ -373,3 +402,10 @@ footer {
     color: white;
     font-size: 1rem;
 }
+
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

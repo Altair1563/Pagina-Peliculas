@@ -49,12 +49,14 @@
     <section class="inicio-sesion">
       <div class="form">
         <form class="form-sesion" action="enviar.php" method="post">
-          <h2>Iniciar Sesión</h2>
-          <label for="nombre">Usuario:</label>
+          <h1 style="text-decoration: underline;">Iniciar Sesión</h1>
+          <label class="form-inicioses" for="nombre">Usuario:</label>
           <input type="text" id="nombre" name="nombre" required>
 
-          <label for="email">Contraseña:</label>
+          <label class="form-inicioses" for="email">Contraseña:</label>
           <input type="contraseña" id="contraseña" name="email" required>
+
+          <a class="olv-contra" href="#">¿Olvidaste tu contraseña?</a>
 
           <button class="link-log" type="submit" value="Iniciar Sesión">Iniciar Sesión</button>
         </form>
