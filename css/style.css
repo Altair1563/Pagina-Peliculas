@@ -46,7 +46,7 @@ main {
 .body-sesion {
     width: 100%;
     height: 100%;
-    background-image: url(/images/1154.webp);
+    background-image: url(../images/1154.webp);
     background-size: contain;
     background-repeat: repeat;
 }
